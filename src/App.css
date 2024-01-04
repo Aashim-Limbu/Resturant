@@ -1,0 +1,60 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form {
+  position: relative;
+}
+
+.form .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #9ca3af;
+}
+
+.form span {
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+}
+
+.form-input {
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 5px;
+}
+
+.form-input:focus {
+  box-shadow: none;
+  border-color: blue;
+}
+
+.category {
+  overflow: auto;
+  padding: 10px;
+}
+
+.category span {
+  padding: 5px;
+  border: 1px solid black;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.recommend {
+  position: fixed;
+  z-index: 111;
+  bottom: 10px;
+  right: 10px;
+}
+
+.recommend .card {
+  background-color: #79808c;
+  padding: 5px 10px;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
